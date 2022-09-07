@@ -1,0 +1,26 @@
+### Hi there 👋
+
+<!--
+**Salamander098/Salamander098** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+--># Python 3: List comprehensions
+>>> fruits = ['Banana', 'Apple', 'Lime']
+>>> loud_fruits = [fruit.upper() for fruit in fruits]
+>>> print(loud_fruits)
+['BANANA', 'APPLE', 'LIME']
+
+# List and the enumerate function
+>>> list(enumerate(fruits))
+[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]
+
+
