@@ -1,0 +1,6 @@
+import os
+shutdown = input("do you want to shutdown your computer (yes / no): ")
+if shutdown == 'yes':
+    os.system("shutdown /s /t 1")
+else:
+    print('shutdown is not requested')                                               
